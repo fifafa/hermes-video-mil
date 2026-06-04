@@ -1,0 +1,9 @@
+*.mp4
+*.webm
+*.mkv
+.yt_archive.txt
+.x_archive.txt
+.x_log.json
+.yt_log.json
+__pycache__/
+*.pyc
