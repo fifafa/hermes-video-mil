@@ -19,7 +19,7 @@ CHANNELS = [
     "https://www.youtube.com/@CovertCabal",          # 军事分析
     "https://www.youtube.com/@Binkov",               # 军力对比
     "https://www.youtube.com/@Taskandpurpose",       # 军事科技
-    "https://www.youtube.com/@Sandboxx",             # 军事航空
+    "https://www.youtube.com/@WardCarroll",          # 军事航空 (前F-14 RIO)
 ]
 
 YTDLP = "yt-dlp --js-runtime node --remote-components ejs:github"

@@ -9,7 +9,7 @@
 - @CovertCabal — 军事分析
 - @Binkov — 军力对比
 - @Taskandpurpose — 军事科技
-- @Sandboxx — 军事航空
+- @WardCarroll — 军事航空 (前F-14 RIO)
 
 ### X/Twitter (5账号)
 - @Osinttechnical — OSINT/战场分析
