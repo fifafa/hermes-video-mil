@@ -47,18 +47,14 @@ def save_archive(archive_set):
 def scan_and_download(account, archive, max_items=MAX_PER_ACCOUNT):
     """
     用 gallery-dl 扫描并下载账号 media timeline
-    gallery-dl 自动处理认证、限流、下载
-    
     文件命名: {OUTPUT_DIR}/twitter/{account}/{tweet_id}_{index}.mp4
     """
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    os.makedirs(GALLERY_CACHE, exist_ok=True)
     
     cmd = (
         f"gallery-dl --cookies {COOKIE_FILE} "
         f"-d {OUTPUT_DIR} "
-        f"--cache-dir {GALLERY_CACHE} "
-        f"--range 1-{max_items * 3} "  # 多取一些，视频混在图片里
+        f"--range 1-{max_items * 3} "
         f'"https://x.com/{account}/media"'
     )
     
